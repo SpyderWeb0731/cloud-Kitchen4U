@@ -1,0 +1,807 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.im{
+    height: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("main.webp");
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    background-color:#222f3d;
+
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background-image: url("IMG-20240517-WA0005_1_-removebg-preview.png");
+    background-size: cover;
+    margin-left: 200px;
+}
+.name{
+    font-family:mon;
+    font-size: 25px;
+    margin-top: 20px;
+    color:white;
+}
+.name:hover{
+    color: orangered;
+}
+.icon1{
+    margin-top: 25px;
+    margin-left: 10px;
+    color: white;
+    height: 30px;
+    
+}
+.loc:hover{
+    color: orangered;
+}
+.l1{
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 6px;
+    font-weight:lighter;
+}
+.w1{
+    color: white;
+    margin-top: 27px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.w1:hover{
+    color: orangered;
+}
+.icon2{
+    color: white;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+.icon2:hover{
+    color: orangered;
+}
+.search{
+    display: flex;
+    
+    height: 25px;
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: none;
+}
+.input{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border:none;
+    width: 90%;
+    height: 100%;
+
+}
+
+.loc{
+    color: white;
+}
+.l2{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    
+    color: black;
+    background-color: white;
+    width: 30px;
+    height: 27.5px;
+
+}
+.l2:hover{
+    color: orangered;
+}
+.l3{
+    color: white;
+    margin-left:50px;
+    margin-top: 24px;
+}
+.l3:hover{
+    color: orangered;
+}
+.ind{
+    margin-left: 15px;
+    margin-top: 23px;
+    color: white;
+}
+.ind:hover{
+    color: orangered;
+}
+.l{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 13px;
+}
+.icon3{
+    
+    margin-left: 40px;
+    margin-top: 23px;
+}
+.profile{
+    color: white;
+}
+.profile:hover{
+    color: orangered;
+}
+.log{
+    color: white;
+    margin-left: 20px;
+    margin-top: 23px;
+    text-decoration: none;
+}
+.log:hover{
+    color: orangered;
+}
+.sing{
+    color: white;
+    margin-left: 20px;
+    margin-top: 23px;
+    text-decoration: none;
+
+}
+.sing:hover{
+    color: orangered;
+}
+.t1{
+    color: white;
+    padding-top: 90px;
+    padding-left: 150px;
+    font-size: 40px;
+    font-family: moon;
+}
+.t2{
+    color: white;
+    padding-left: 210px;
+    padding-top: 5px;
+    font-size: 50px;
+    font-family: moon;
+}
+.t3{
+    color: white;
+    padding-left: 320px;
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: moon;
+}
+.on{
+    
+    font-family: mono;
+    font-size: 30px;
+}
+.what{
+    background-color:white;
+    height: 50px;
+    margin-top: 80px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.mind{
+    display: flex;
+    justify-content:space-around;
+    height: 140px;
+   
+    
+    margin-top:100px;
+}
+long{
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+}
+.i1{
+    padding-top: px;
+    height:140px;
+    width: 12%;
+    border-radius: 50%;
+}
+.l11{
+    background-image: url("hakka-noodles-recipe.jpg");
+    background-size: cover;
+}
+.l22{
+    background-image: url("easy-chinese-chilli-chicken-dry-4.jpg");
+    background-size: cover;
+}
+.l13{
+    background-image: url("gulab.jpg");
+    background-size: cover;
+}
+.l4{
+    background-image: url("pan.jpg");
+    background-size: cover;
+}
+.l5{
+    background-image: url("chicken.jpeg");
+    background-size: cover;
+}
+.l6{
+    background-image: url("briyani.jpg");
+    background-size: cover;
+}
+.me{
+    display: flex;
+    justify-content:space-around;
+    margin: 15px;
+}
+
+.chinies{
+    margin-left: 40px;
+}
+.Chillies{
+    margin-left: 11px;
+}
+.sweet{
+    margin-left: 17px;
+}
+.veg{
+    margin-left: 2px;
+}
+.chicken{
+    margin-right: 7px;
+}
+.im:hover{
+    height: 300px;
+    background-image:url("main.webp");
+    background-size: cover;
+
+}
+.im:active{
+    background-image: url("final.jpg");
+}
+.recent{
+    font-family: monos;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.added{
+    margin-top: 70px;
+    display: flex;
+    justify-content:space-evenly;
+    height: 350px;
+    
+
+
+}
+.r11{
+    height: 350px;
+    width:25%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)),url("briyani.jpg");
+    background-size:320px;
+    background-repeat: no-repeat;
+    
+  
+    
+}
+.d1{
+    color: white;
+    margin-top: 240px;
+}
+
+.r11:hover{
+    background-image: url("briyani.jpg");
+    .d1{
+        color:black
+    }
+}
+.a1{
+    text-decoration: none;
+}
+.m1{
+    text-decoration: none;
+    color: black;
+}
+.best{
+    font-family: monos;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.selling{
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-top: 70px;
+}
+.s1{
+    margin-left: 50px;
+    height: 350px;
+    width:20%;
+    background-image: url("briyani.jpg");
+    background-size:290px;
+    background-repeat: no-repeat;
+
+}
+.s11{
+    margin-top: 230px;
+}
+.slide{
+    margin-top: 100px;
+    border: 2px solid black;
+    height: 20px;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+.s1:hover{
+    
+        background-image: url("briyani2.jpg");
+        background-size: 290px;
+        background-repeat: no-repeat;
+        
+    .s11{
+        color: blue;
+    }
+}
+.a11{
+    text-decoration: none;
+    color: black;
+}
+.i1:hover{
+    
+        border: 5px solid orangered;
+    
+}
+.s111{
+    background-image: url("Paneer-butter-masala-recipe-3-500x375.jpg");
+    background-size: 260px;
+    
+}
+.s111:hover{
+    background-image: url("paneer-butter-masala\ 2.jpg");
+    background-size: 375px;
+}
+.s112{
+    background-image: url("chicken\ chilli.jpeg");
+    background-size: 290px;
+}
+.s112:hover{
+    background-image: url("chicken\ chilli2.jpg");
+}
+.s113{
+    background-image: url("paratha.jpg");
+}
+.s113:hover{
+    background-image: url("paratha\ 2.jpg");
+}
+.tag{
+    font-family: monosp;
+    margin-top: 80px;
+    margin-left: 400px;
+    font-size: 40px;
+}
+.tag1{
+    font-family: monosp;
+    margin-top: 5px;
+    margin-left: 210px;
+    font-size: 50px;
+
+}
+.tag2{
+    font-family: monosp;
+    margin-top: 5px;
+    margin-left: 520px;
+    font-size: 25px;
+}
+.tag1:hover{
+    color: orangered;
+}
+.tag2:hover{
+    color: orangered;
+}
+.tag:hover{
+    color: orangered;
+}
+.menu{
+    font-family: monospa;
+    font-size: 60px;
+    margin-left: 500px;
+    margin-top: 50px; text-decoration: underline;
+    text-decoration-color: orangered;
+}
+.line{
+    margin-top: 60px;
+    height: 2px;
+    background-color: black;
+}
+.ch{
+    font-family:monospac;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 90px;
+
+}
+.chi{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-top: 50px;
+}
+.chi1{
+    
+    width: 20%;
+    height: 300px;
+    background-image: url("gobi\ chilli.jpg");
+
+    background-size: cover;
+    background-size: 260px;
+    background-repeat: no-repeat;
+
+}
+.pr1{
+    font-family: monospa;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 210px;
+    margin-left:px;
+}
+.chi11{
+    background-image: url('soyabean\ chilli.webp');
+    background-size: 300px;
+}
+.chi1:hover{
+    color: orangered;
+}
+.chi12{
+    background-image: url('channan\ chilli.jpg');
+    background-size: 268px;
+}
+.chi13{
+    background-image: url("panner\ chilli.webp");
+    background-size: 270px;
+}
+.dal1{
+    background-image: url("thin\ yello\ dal.webp");
+    background-size: 330px;
+}
+.dal2{
+    background-image:url("thick\ yello\ dal.webp") ;
+}
+.dal3{
+    background-image:url("chana\ dal\ fry.jpg") ;
+    background-size: 350px;
+}
+.dal4{
+    background-image:url("dal\ tadka.jpg") ;
+    background-size: 350px;
+}
+.dal5{
+    background-image: url("mix\ tadka.webp");
+    background-size: 290px;
+}
+.veg1{
+    background-image: url("allu\ fry.jpg");
+    background-size: 340px;
+}
+.veg2{
+    background-image: url("bhindhi\ fry.jpg");
+    background-size: 345px;
+}
+.veg3{
+    background-image: url("kerala\ fry.jpg");
+    background-size: 390px;
+}
+.veg4{
+    background-image: url("allu\ dam.jpg");
+    background-size: 290px;
+}
+.veg5{
+    background-image: url("allu\ matar.jpg");
+}
+.veg6{
+    background-image: url("allu\ gobhi.webp");
+    background-size: 320px;
+}
+.veg7{
+    background-image: url("allu\ bagan.jpg");
+    background-size: 265px;
+}
+.veg8{
+    background-image: url("allu\ bagan\ palak.webp");
+    background-size: 300px;
+}
+.veg9{
+    background-image: url("ma.webp");
+    background-size:340px ;
+}
+.veg10{
+    background-image: url("palak\ panner.jpg");
+}
+.veg11{
+    background-image: url("pannen\ masala.jpg");
+    background-size: 295px;
+}
+.veg12{
+    background-image: url("Paneer-butter-masala-recipe-3-500x375.jpg");
+}
+.n{
+    background-image: none;
+}
+.non1{
+    background-image: url("plain\ omelete.jpg");
+    background-size: 345px;
+}
+.non2{
+    background-image: url("masal\ egg\ omelete.jpg");
+}
+.non3{
+    background-image: url("egg\ cury.jpeg");
+    background-size: 260px;
+}
+.non4{
+    background-image: url("masala\ egg.jpg");
+    background-size: 260px;
+}
+.non5{
+    background-image: url("fish\ curry.jpg");
+    background-size: 290px;
+}
+.non6{
+    background-image: url("fish\ masala.jpg");
+    background-size: 290px;
+}
+.non7{
+    background-image: url("chicken\ cury.jpg");
+    background-size: 290px;
+}
+.non8{
+    background-image: url("chicken\ masala.jpg");
+    background-size: 290px;
+}
+.non9{
+    background-image: url("chicken\ do\ piyaja.jpg");
+    background-size: 340px;
+}
+.non10{
+    background-image: url("butter\ chicken.webp");
+    background-size: 340px;
+}
+.non11{
+    background-image: url("briyani2.jpg");
+    background-size: 290px;
+}
+.non12{
+    background-image: url("chilli\ chicken.jpg");
+    background-size: 295px;
+}
+.pa1{
+    background-image: url("puri.jpeg");
+    background-size: 285px;
+}
+.pa2{
+    background-image: url("tawa\ roti.webp");
+    background-size:255px;
+}
+.pa3{
+    background-image: url("plain\ paratha.jpg");
+    background-size:290px ;
+}
+.pa4{
+    background-image: url("allu\ paratha.webp");
+}
+.pa5{
+    background-image: url("Sattu_Ka_Paratha.jpg");
+   
+}
+.pa6{
+    background-image: url("Chana-Dal-Paratha.jpg");
+    background-size:275px ;
+}
+.pa7{
+    background-image: url("panner\ parath.webp");
+    background-size: 275px;
+}
+.ri1{
+    background-image:url("steam.webp") ;
+    background-size:290px ;
+}
+.ri2{
+    background-image:url("basmati.jpg") ;
+    background-size: 260px;
+}
+.ri3{
+    background-image:url("zeera.jpg") ;
+    background-size: 295px ;
+}
+.ri4{
+    background-image:url("fried-rice-using-veggies.jpg") ;
+    background-size: 295px;
+}
+.ri5{
+    background-image:url("ss.jpg") ;
+    background-size: 290px;
+}
+.ri6{
+    background-image:url("special.jpg") ;
+    background-size:290px ;
+}
+.sw1{
+    background-image:url("semiya-payasam-shewai-sewai-khir-seviyan-kheer-is-indian-sweet-made-with-vermicelli-milk-ghee-sugar-jaggery-raisins-nuts-1-1024x683.webp") ;
+    background-size:290px ;
+}
+.sw2{
+    background-image:url("kheer.webp") ;
+    background-size:290px ;
+}
+.sw3{
+    background-image:url("gulab\ jamun.webp") ;
+    background-size:264px ;
+}
+.sw4{
+    background-image:url("rash\ gu.webp") ;
+    background-size:305px ;
+}
+.ad1{
+    background-image: url("roasted.jpg");
+    background-size: 285px;
+}
+.ad2{
+    background-image: url("fried.jpg");
+    background-size: 310px;
+}
+.ad3{
+    background-image: url("disco.webp");
+    background-size: 275px;
+}
+.ad4{
+    background-image: url("on.webp");
+    background-size: 255px;
+}
+.ad5{
+    background-image: url("bu.png");
+    background-size: 275px;
+}
+.ad6{
+    background-image: url("sa.webp");
+    background-size: 290px;
+}
+.sc1{
+    background-image: url("chowmin.webp");
+    background-size: 255px;
+}
+.sc2{
+    background-image: url("egg\ chowmin.jpg");
+    background-size:290px ;
+}
+.sc3{
+    background-image: url("chicken\ chowmin.jpg");
+    background-size: 290px;
+}
+.sc4{
+    background-image: url("wh.jpg");
+    background-size: 255px;
+}
+.sc5{
+    background-image: url("red.jpg");
+    background-size:280px ;
+}
+
+
+/* footer */
+.footer1{
+    margin-top: 40px;
+    background-color: #37475a;
+    color: #FFFFFF;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+ul a{
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+
+
+.footer2{
+    justify-content: space-evenly;
+    padding-top: 40px;
+    display: flex;
+    background-color: #222f3d;
+    height: 300px;
+    color: white;
+}
+.m{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.footer3{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    border-top: 0.1px solid #dddddd;
+}
+.logo1{
+    background-image: url("IMG-20240517-WA0005_1_-removebg-preview.png");
+    text-align: center;
+    height: 130px;
+    width: 120px;
+    background-size:cover;
+    margin-top:1px;
+    margin-left: 300px;
+    border: 2px solid transparent;
+
+}
+
+.logo2{
+    padding: 8px;
+    color: white;
+    margin-left: 80px;
+    border: 0.5px solid white;
+    border-radius: 4px;
+}
+.logo3{
+    padding: 8px;
+    color: white;
+    border: 0.5px solid white;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.logo3{
+    padding: 8px;
+    color: white;
+    border: 0.5px solid white;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.footer4{
+    background-color: #222f3d;
+    color: white;
+    text-align: center;
+    height: 70px;
+    padding-top: 30px;
+    font-size: 12px;
+}
+
+.copyright{
+    padding-top: 10px;
+}
+.back{
+    color: white;
+    text-decoration: none;
+}
+.back:hover{
+    color: orangered;
+}
+.p1{
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.p2{
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.p1:hover{
+    color: blue;
+}
+.p2:hover{
+    color: blue;
+}
+
+.m:hover{
+    color: orangered;
+}
+
+
